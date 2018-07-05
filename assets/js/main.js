@@ -78,7 +78,6 @@ const Template = {
   }
 }
 
-
 function done(attr) {
   Tasks.removeTodo(attr.id);
 
@@ -94,5 +93,5 @@ function undo(attr) {
 function closeDone(attr) {
   Tasks.removeDone(attr.id);
 
-  Tasks.closeTask(attr.value)
+  Tasks.closeTask(attr.value);
 }
