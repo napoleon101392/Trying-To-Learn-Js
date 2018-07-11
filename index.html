@@ -4,36 +4,23 @@
   <title></title>
 </head>
 <body>
-  <div>
-    <input type="text">
-    <button id="add-todo">ADD</button>
-    <div id="todo">
-      <h1>To Do</h1>
-      <div class="body"></div>
-    </div>
-    <div id="done">
-      <h1>Done</h1>
-      <div class="body"></div>
-    </div>
-    <div id="close">
-      <h1>Close</h1>
-      <div class="body"></div>
-    </div>
+<div>
+  <input type="text" id="input">
+  <button id="add-todo">ADD</button>
+  <div id="todo">
+    <h1>To Do</h1>
+    <div class="body"></div>
   </div>
+  <div id="done">
+    <h1>Done</h1>
+    <div class="body"></div>
+  </div>
+  <div id="close">
+    <h1>Close</h1>
+    <div class="body"></div>
+  </div>
+</div>
 <script src="assets/js/jquery.js"></script>
-<script src="assets/js/main.js"></script>
-<script>
-$(function(){
-  $("#add-todo").on("click", function(){
-    let input = $("input").val();
-
-    if (input == "") {
-      alert("Task field is required");
-    } else {
-      Tasks.addTodo(input);
-    }
-  });
-});
-</script>
+<script src="assets/js/main.js" type="module"></script>
 </body>
 </html>
