@@ -1,9 +1,9 @@
 import Task from '/assets/js/Task.js';
 
-let addTask = document.getElementById('add-todo');
 let input = document.getElementById('input');
 
-addTask.addEventListener('click', () => {
+// On clicking on ADD button
+$(document).on('click', '#add-todo', function(){
   if (input.value === "") {
     alert("Field is Required");
   } else {
