@@ -4,6 +4,16 @@ This projects focus on creating a tasks and directly moved to `to-do` section, o
 
 Some developers like me is not really good in this language, it would be nice if we can share knowledge by creating an issue, create a feature and lets solve the problem. etc.. etc..
 
+## Installation
+
+To get started use and follow the command below.
+```
+$ npm install
+$ npm start
+```
+Then open `127.0.0.1:8080` in the browser.
+
+
 ## Contributing
 
 Feel free to create an issue, make a Pull request.
