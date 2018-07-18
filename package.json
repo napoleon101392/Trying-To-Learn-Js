@@ -1,0 +1,22 @@
+{
+  "name": "trying_to_learn_js",
+  "version": "1.0.0",
+  "description": "This projects focus on creating a tasks and directly moved to `to-do` section, once the task is done, we can move the task into different section. We are trying to create like ``www.trello.com``",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[C\u001b[Cindex.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napoleon101392/Trying-To-Learn-Js.git"
+  },
+  "author": "Napoleon Cariño Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/napoleon101392/Trying-To-Learn-Js/issues"
+  },
+  "homepage": "https://github.com/napoleon101392/Trying-To-Learn-Js#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
