@@ -11,8 +11,7 @@ To get started use and follow the command below.
 $ npm install
 $ npm start
 ```
-Then open `127.0.0.1:8080` in the browser.
-
+Then open `127.0.0.1:8081` in the browser.
 
 ## Contributing
 
