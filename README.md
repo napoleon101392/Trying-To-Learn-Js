@@ -1,4 +1,4 @@
-## Lets build Javascript from scratch
+## Lets build Javascript from scratch :fire:
 
 This projects focus on creating a tasks and directly moved to `to-do` section, once the task is done, we can move the task into different section. We are trying to create like ``www.trello.com``
 
