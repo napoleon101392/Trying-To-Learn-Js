@@ -4,7 +4,7 @@ let input = document.getElementById('input');
 
 // On clicking on ADD button
 $(document).on('click', '#add-todo', function(){
-  if (input.value === "") {
+  if ("" === input.value) {
     alert("Field is Required");
   } else {
     Task.addTodo(input.value);
