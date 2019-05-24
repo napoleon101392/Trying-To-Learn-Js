@@ -1,4 +1,4 @@
-import Template from '/assets/js/Template.js';
+import Template from './assets/js/Template.js';
 
 export default {
   todo: [],
