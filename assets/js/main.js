@@ -1,4 +1,4 @@
-import Task from '/assets/js/Task.js';
+import Task from './assets/js/Task.js';
 
 let input = document.getElementById('input');
 
